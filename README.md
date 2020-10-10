@@ -1,2 +1,2 @@
 # Iowa_Liquor
-Iowa Liquor Data
+Iowa Liquor Dataset, mostly cleaned
