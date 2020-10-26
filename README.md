@@ -3,6 +3,7 @@ Iowa Liquor Dataset, mostly cleaned
 
 ## File download
 csv_file = '/iowa_liquor_clean_1k.csv' | csv_file = '/iowa_liquor_clean_10k.csv'
+
 df = pd.read_csv(csv_file,
         dtype = {'year':np.int16, 'month':np.int8, 'day':np.int8,
         'store_number':np.int16, 'county_number':np.int8, 'item_number':np.int32,
