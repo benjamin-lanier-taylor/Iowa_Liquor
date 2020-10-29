@@ -25,3 +25,7 @@ X2016 = df.query('year == 2016').copy().drop(['sale', 'fd'], axis=1)
 X_columns2016 = X.query('year == 2016').copy().columns
 
 X_train2016, X_test2016, y_train2016, y_test2016 = train_test_split(X_, y_, test_size=.25, random_state=42)
+
+## Pipeline Trouble
+data: 'iowa_liquor_clean3.5.cats.1000.pkl'
+file: pipeline_trouble
