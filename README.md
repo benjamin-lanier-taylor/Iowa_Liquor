@@ -33,4 +33,4 @@ My theoretical clients are major liquor retailers in Iowa (and perhaps similar p
 I aim to predict sales and in order that clients will know about how much profit they may earn in a given timeframe. I think, given the extensive amount of data gathered, the models will yield accurate predictions. 
 
 ## Data Collection
-As of late-2020, the website from which one can download the [Iowa Liquor Sales datasets as a CSV files is Kaggle](https://www.kaggle.com/residentmario/iowa-liquor-sales) (3.23 GB) and the [official government webpage (where liquor sales are downloaded per year)](https://data.iowa.gov/Sales-Distribution/Iowa-Liquor-Sales/m3tr-qhgy).
+As of late-2020, the website from which one can download the Iowa Liquor Sales datasets as a CSV files from [Kaggle](https://www.kaggle.com/residentmario/iowa-liquor-sales) (3.23 GB) and the [official government webpage (where liquor sales are downloaded per year)](https://data.iowa.gov/Sales-Distribution/Iowa-Liquor-Sales/m3tr-qhgy).
