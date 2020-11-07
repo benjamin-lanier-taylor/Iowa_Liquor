@@ -1,5 +1,5 @@
 # Iowa Liquor Dataset
-Springboard Data Science Career Track: Second Capstone Project
+Springboard Data Science Career Track: Second Capstone Project <br>
 Consider my [comprehensive report](https://docs.google.com/document/d/14u_l9MKvdW9LHtLNHKm_gLxFptwRcE-UoKwqpnUEsys/edit?usp=sharing) submitted to Springboard.
 
 ## Files
