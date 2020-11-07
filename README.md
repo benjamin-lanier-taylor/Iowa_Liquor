@@ -1,31 +1,36 @@
-# Iowa_Liquor
-Iowa Liquor Dataset, mostly cleaned
+# Iowa Liquor Dataset
+Springboard Data Science Career Track: Second Capstone Project
 
-## File download
-csv_file = '.../iowa_liquor_clean_1k.csv'          |               csv_file = '.../iowa_liquor_clean_10k.csv'
+## Files
+1. The Jupyter Notebook Files:
+   * Capstone 2, Iowa Liquor 1.ipynb
+      * Most of the dataset is cleaned.
+   * Capstone 2, Iowa Liquor 2.ipynb
+      * EDA.
+   * Capstone 2, Iowa Liquor 3.ipynb
+      * Feature Selection and Machine Learning.
+2. iowa_liquor.txt
+   * The requirments.txt file used for this project.
 
-df = pd.read_csv(csv_file,
-        dtype = {'year':np.int16, 'month':np.int8, 'day':np.int8,
-        'store_number':np.int16, 'county_number':np.int8, 'item_number':np.int32,
-        'pack':np.int16, 'bottle_vol':np.int64, 'bottle_cost':np.float32,
-        'state_bottle_retail':np.float32, 'bottles_sold':np.int16, 'sale':np.float32,
-        'vol_sold':np.float32, 'bottles_sold':np.int16,
-        'category':np.int32, 'store_subnumber':np.int16, 'zip_code':np.int16,
-        'vendor_number':np.int16
-        })
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
-df.drop('Unnamed: 0', axis=1, inplace=True)
+* [General Information](#general-information)
+* [Purpose and Hypothesis](#purpose-and-hypothesis)
+* [Data Collection](#data-collection)
 
-## Prep code for 2016
 
-y2016 = df.query('year == 2016')['fd'].copy().values # fd is the result of applying boxcox on the sale column (fitted data)
 
-X2016 = df.query('year == 2016').copy().drop(['sale', 'fd'], axis=1)
+<!-- ABOUT THE PROJECT -->
+## General Information
+I chose to work with the Iowa Liquor dataset because I know that entry-level Data Scientist and Data Analysts jobs primarily deal with dirty data, and the Iowa Liquor dataset had more dirty data than one might recognize at first glance (most of the difficulties arise as one inspects the values in a few of the pandas Series). I was interested in how much data the state of Iowa had collected (over 12.5 million rows) of liquor sales across about five years.
 
-X_columns2016 = X.query('year == 2016').copy().columns
+For more about Iowa’s plan concerning collecting and releasing many datasets, see their webpage.
 
-X_train2016, X_test2016, y_train2016, y_test2016 = train_test_split(X_, y_, test_size=.25, random_state=42)
+My theoretical clients are major liquor retailers in Iowa (and perhaps similar places) who would benefit from knowing projects profits and categories of liquor in order that they might restock effectively. 
 
-## Pipeline Trouble
-data: 'iowa_liquor_clean3.5.cats.1000.pkl'
-file: pipeline_trouble
+## Purpose and Hypothesis
+I aim to predict sales and in order that clients will know about how much profit they may earn in a given timeframe. I think, given the extensive amount of data gathered, the models will yield accurate predictions. 
+
+## Data Collection
+As of late-2020, the website from which one can download the [Iowa Liquor Sales datasets as a CSV files is Kaggle](https://www.kaggle.com/residentmario/iowa-liquor-sales) (3.23 GB) and the [official government webpage (where liquor sales are downloaded per year)](https://data.iowa.gov/Sales-Distribution/Iowa-Liquor-Sales/m3tr-qhgy).
