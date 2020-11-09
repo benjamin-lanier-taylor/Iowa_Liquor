@@ -24,7 +24,7 @@ Consider my [comprehensive report](https://docs.google.com/document/d/14u_l9MKvd
 
 <!-- ABOUT THE PROJECT -->
 ## General Information
-I chose to work with the Iowa Liquor dataset because I know that entry-level Data Scientist and Data Analysts jobs primarily deal with dirty data, and the Iowa Liquor dataset had more dirty data than one might recognize at first glance (most of the difficulties arise as one inspects the values in a few of the pandas Series). I was interested in how much data the state of Iowa had collected (over 12.5 million rows) of liquor sales across about five years.
+I worked with the Iowa Liquor dataset because I know that entry-level Data Scientist and Data Analysts jobs primarily deal with dirty data, and the Iowa Liquor dataset had more dirty data than one might recognize at first glance (most of the difficulties arise as one inspects the values in a few of the pandas Series). I was interested in how much data the state of Iowa had collected (over 12.5 million rows) of liquor sales across about five years.
 
 For more about Iowa’s plan concerning collecting and releasing many datasets, see their webpage.
 
