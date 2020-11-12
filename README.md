@@ -12,6 +12,8 @@ Consider my [comprehensive report](https://docs.google.com/document/d/14u_l9MKvd
       * Feature Selection and Machine Learning.
 2. iowa_liquor.txt
    * The requirments.txt file used for this project.
+3. iowa_liquor_clean7.pkl
+   * A Pickle file of 100 rows of the data I sent though ML models.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
