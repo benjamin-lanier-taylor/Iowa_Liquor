@@ -13,7 +13,7 @@ Consider my [directory document](https://docs.google.com/document/d/16S59blK0b-M
 2. iowa_liquor.txt
    * The requirments.txt file used for this project.
 3. Iowa Liquor Sales Slides.pdf
-   * A PDF of my presentation slides. Or you can view [them online](https://docs.google.com/presentation/d/10QPmm6pXkZ1utAHthWiA2sR6Cv4b3CBxeTGccQbO0uQ/edit?usp=sharing).
+   * A PDF of my presentation slides. Or you can view [the Google Slide Deck](https://docs.google.com/presentation/d/10QPmm6pXkZ1utAHthWiA2sR6Cv4b3CBxeTGccQbO0uQ/edit?usp=sharing).
 4. iowa_liquor_clean7.pkl
    * A Pickle file of 100 rows of the data I sent though ML models.
 
